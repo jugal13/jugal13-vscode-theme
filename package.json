@@ -1,0 +1,22 @@
+{
+    "name": "jugal13-theme",
+    "displayName": "jugal13-theme",
+    "description": "\"VS Code theme\"",
+    "version": "0.0.1",
+    "publisher": "jugal13",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "jugal13-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/jugal13-theme-color-theme.json"
+            }
+        ]
+    }
+}
