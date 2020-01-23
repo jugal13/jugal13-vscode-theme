@@ -1,4 +1,6 @@
-# Dark Mode theme for VS code [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jugal13.jugal13-theme?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jugal13.jugal13-theme) [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/jugal13.jugal13-theme?color=green&label=VS%20Code%20Downloads&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jugal13.jugal13-theme)
+# Dark Mode theme for VS code 
+
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jugal13.jugal13-theme?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jugal13.jugal13-theme) [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/jugal13.jugal13-theme?color=green&label=VS%20Code%20Downloads&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jugal13.jugal13-theme)
 
 [Repository](https://github.com/jugalw13/jugal13-vscode-theme)
 
