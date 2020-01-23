@@ -6,4 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.0.0]
+- Updated README. Provided Screenshots of UI.
+
+## [0.0.2]
+- Changed Sidebar colours to lighter blue
+
+## [0.0.1] - 2020-01-23
 - Initial release
