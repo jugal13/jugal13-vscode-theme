@@ -1033,7 +1033,7 @@
     },
     {
       "name": "Keyword Dart",
-      "scope": ["keyword.declaration.dart"],
+      "scope": ["keyword.declaration.dart", "keyword.control.dart"],
       "settings": {
         "foreground": "#00a2ff"
       }
