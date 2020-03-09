@@ -1,4 +1,4 @@
-# Dark Mode theme for VS code 
+# Dark Mode theme for VS code
 
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jugal13.jugal13-theme?color=blue&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jugal13.jugal13-theme) [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/jugal13.jugal13-theme?color=green&label=VS%20Code%20Downloads&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jugal13.jugal13-theme)
 
@@ -82,8 +82,8 @@ The list of extensions are being used with the theme
 },
 
 "workbench.colorCustomizations": {
-	  "[jugal13-theme]": {
-		    "activityBar.activeBorder": "#ff33ff",
+	"[jugal13-theme]": {
+		"activityBar.activeBorder": "#ff33ff",
         "activityBar.background": "#111111",
         "activityBar.border": "#333333",
         "activityBar.dropBackground": "#ff0033",
@@ -91,14 +91,14 @@ The list of extensions are being used with the theme
         "activityBar.inactiveForeground": "#00ffbd",
         "activityBarBadge.background": "#ff0000",
         "activityBarBadge.foreground": "#000000",
-	  }
+	}
 },
 ```
 
 ## textMate Rules
 
 1. Open Command Palette
-2. Select `Developer: Inspect TM Scopes`
+2. Select `Developer: Inspect Editor Tokens and Scopes`
 3. Place cursor to identify the scope of the element in the file
 
 [Video](images/textMate.mov)

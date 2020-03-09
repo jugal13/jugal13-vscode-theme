@@ -252,7 +252,7 @@
       "name": "Variables SCSS",
       "scope": ["variable.scss"],
       "settings": {
-        "foreground": "#f7cd81"
+        "foreground": "#fac563"
       }
     },
     {
@@ -347,15 +347,33 @@
         "punctuation.definition.tag",
         "punctuation",
         "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
       ],
       "settings": {
         "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Operator, Misc HTML",
+      "scope": [
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html",
+        "punctuation.separator.key-value.html"
+      ],
+      "settings": {
+        "foreground": "#00b7ff"
+      }
+    },
+    {
+      "name": "Operator CSS",
+      "scope": ["punctuation.definition.entity.css"],
+      "settings": {
+        "foreground": "#00b7ff"
       }
     },
     {
@@ -405,6 +423,8 @@
       "scope": [
         "keyword.control.at-rule.keyframes.scss",
         "keyword.control.at-rule.mixin.scss",
+        "keyword.control.at-rule.include.scss",
+        "keyword.control.at-rule.import.scss",
         "keyword.control.each.scss",
         "keyword.control.at-rule.function.scss",
         "keyword.control.return.scss",
@@ -427,7 +447,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#eb444d"
       }
     },
     {
@@ -440,6 +460,20 @@
       ],
       "settings": {
         "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Function CSS",
+      "scope": ["entity.name.function.css", "entity.name.function.scss"],
+      "settings": {
+        "foreground": "#5c8efc"
+      }
+    },
+    {
+      "name": "Function, Special Method",
+      "scope": ["entity.name.function.dart"],
+      "settings": {
+        "foreground": "#5c8efc"
       }
     },
     {
@@ -542,7 +576,7 @@
         "variable.parameter"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#f84866"
       }
     },
     {
@@ -565,7 +599,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#afdf68"
       }
     },
     {
@@ -580,6 +614,20 @@
         "markup.changed.git_gutter",
         "support.type.sys-types"
       ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Class TS, Export in TS",
+      "scope": ["entity.name.type.class.ts", "keyword.control.export.ts"],
+      "settings": {
+        "foreground": "#5c8efc"
+      }
+    },
+    {
+      "name": "Class Dart",
+      "scope": ["support.class.dart"],
       "settings": {
         "foreground": "#FFCB6B"
       }
@@ -609,7 +657,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#69b7d6"
       }
     },
     {
@@ -642,11 +690,12 @@
     {
       "name": "meta.method.js",
       "scope": [
-        "meta.class-method.js entity.name.function.js",
+        "entity.name.function.js",
+        "entity.name.function.ts",
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#fcb75c"
       }
     },
     {
@@ -657,14 +706,14 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#C792EA"
+        "foreground": "#c56dff"
       }
     },
     {
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#ffbb3c"
       }
     },
     {
@@ -1039,6 +1088,13 @@
       }
     },
     {
+      "name": "Keyword Dart",
+      "scope": ["keyword.other.import.dart", "constant.language.dart"],
+      "settings": {
+        "foreground": "#ff7950"
+      }
+    },
+    {
       "name": "Keyword, Storage Dart",
       "scope": ["storage.type.annotation.dart"],
       "settings": {
@@ -1047,10 +1103,19 @@
     },
     {
       "name": "Keyword Dart",
-      "scope": ["keyword.control.dart"],
+      "scope": ["keyword.control.dart", "keyword.control.catch-exception.dart"],
       "settings": {
         "foreground": "#55c9f7"
       }
-    }
+    },
+    {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "variable.parameter.dart"
+      ],
+      "settings": {
+        "foreground": "#ff264a"
+      }
+    },
   ]
 }
