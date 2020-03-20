@@ -695,7 +695,7 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#fcb75c"
+        "foreground": "#00B7FF"
       }
     },
     {
@@ -1110,12 +1110,10 @@
     },
     {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-      "scope": [
-        "variable.parameter.dart"
-      ],
+      "scope": ["variable.parameter.dart"],
       "settings": {
         "foreground": "#ff264a"
       }
-    },
+    }
   ]
 }
