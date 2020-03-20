@@ -2,7 +2,7 @@
   "name": "jugal13-theme",
   "displayName": "jugal13-theme",
   "description": "\"VS Code theme\"",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "publisher": "jugal13",
   "engines": {
     "vscode": "^1.41.0"
