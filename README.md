@@ -56,7 +56,7 @@ The list of extensions are being used with the theme
 
 **Example (Syntax Colours without textMate Rules)**
 
-```js
+```json
 "editor.tokenColorCustomizations": {
     "[jugal13-theme]": {
         "comments": "#229977"
@@ -66,7 +66,7 @@ The list of extensions are being used with the theme
 
 **Example (Syntax Colours using textMate Rules)**
 
-```js
+```json
 "editor.tokenColorCustomizations": {
     "[jugal13-theme]": {
         "textMateRules": [
